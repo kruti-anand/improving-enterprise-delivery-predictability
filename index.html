@@ -425,53 +425,34 @@
         </div>
 
         <div class="highlight" style="margin-top: 28px;">
-          <div class="label">Technical Solution Design · Applied AI</div>
-          <h3>Turning story readiness into a repeatable, AI-assisted workflow</h3>
+  <div class="label">Technical Solution Design · Applied AI</div>
+  <h3>Turning Story Readiness into a Repeatable, AI-Assisted Workflow</h3>
 
-          <p>
-            I identified an opportunity to make story readiness assessment
-            more consistent and actionable. Rather than relying solely on
-            manual review, I designed and built a Jira-integrated workflow
-            using GitHub Copilot to help evaluate sprint stories against
-            defined Definition of Ready criteria.
-          </p>
+  <p><strong>The problem:</strong> Story-readiness expectations can be interpreted inconsistently. Gaps in acceptance criteria, requirements, or technical considerations may remain unresolved until refinement, planning, or sprint execution, creating avoidable follow-up work.</p>
 
-          <p>
-           The workflow connects sprint selection, automated story evaluation against defined readiness criteria, and structured report generation. 
-           The output identifies story-level readiness status, highlights gaps, and provides exemplary stories as reference points for consistent expectations.
-          </p>
+  <p><strong>What I designed and built:</strong> I created a Jira-integrated, AI-assisted workflow using GitHub Copilot to make story-readiness assessment more structured, consistent, and repeatable.</p>
 
-          <p><strong>Solution design and delivery considerations:</strong></p>
-          <ul>
-            <li>
-              <strong>Defined the evaluation framework:</strong>
-              translated readiness expectations into criteria that could be
-              applied consistently across sprint stories.
-            </li>
-            <li>
-              <strong>Designed the workflow:</strong>
-              connected sprint selection, story evaluation, and report
-              generation into a repeatable process.
-            </li>
-            <li>
-              <strong>Kept people accountable for decisions:</strong>
-              positioned the output as decision support for Product and
-              Engineering, not as a substitute for team judgment.
-            </li>
-            <li>
-              <strong>Focused on earlier intervention:</strong>
-              made missing information and readiness gaps visible during
-              refinement and planning, when teams could still address them.
-            </li>
-          </ul>
+  <h4 style="margin-top: 22px; color:#1e1b4b;">How the workflow operates</h4>
+  <ul>
+    <li><strong>Select the sprint:</strong> Choose the target sprint and retrieve its Jira stories.</li>
+    <li><strong>Assess readiness:</strong> Evaluate each story against defined Definition of Ready (DoR) criteria.</li>
+    <li><strong>Classify and explain:</strong> Assign a readiness status—Ready, Mostly Ready, or Ready with Comments—and identify gaps or clarifications requiring attention.</li>
+    <li><strong>Provide reference examples:</strong> Identify two exemplary stories to illustrate readiness expectations.</li>
+    <li><strong>Generate actionable outputs:</strong> Produce a structured report and prepare a readiness communication for the team ahead of sprint planning.</li>
+  </ul>
 
-          <p>
-            The broader objective was to operationalize a delivery practice:
-            turn qualitative readiness expectations into a structured,
-            repeatable workflow that helps teams identify issues earlier
-            and make better-informed execution decisions.
-          </p>
-        </div>
+  <h4 style="margin-top: 22px; color:#1e1b4b;">How teams use the output</h4>
+  <p>
+    Product and Engineering teams use the assessment to review readiness gaps, clarify requirements, and focus refinement discussions. 
+    The workflow informs those discussions; teams remain responsible for validating findings, resolving open questions, and making readiness and delivery decisions.
+  </p>
+
+  <h4 style="margin-top: 22px; color:#1e1b4b;">Why it matters</h4>
+  <p>
+    The workflow turns a qualitative review practice into a more structured, repeatable process. 
+    By surfacing missing information and highlighting stories that need attention, it helps teams focus refinement efforts and make better-informed planning decisions.
+  </p>
+</div>
       </div>
         </section>
 
